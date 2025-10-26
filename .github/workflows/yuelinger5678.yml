@@ -2,9 +2,9 @@ name: yuelinger5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 2/6 * * *'
+    - cron: '3 4/6 * * *'
 
-jobs:  # 9517
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +12,11 @@ jobs:  # 9517
       - uses: actions/checkout@v4
       - name: yuelinger5678
         env:
-          dz16: ${{ secrets.dz16 }}
+          qjk2004: ${{ secrets.qjk2004 }}
         run: |
-          echo $dz16 | jq -r .mwtd57 | /bin/bash
-          echo $xgi2777 | jq -r .iqh9 | /bin/bash
-          echo $l02846 | jq -r .xci1 | /bin/bash
-          echo $yfwl237 | jq -r .vlaup59 | /bin/bash
-          echo $qopn84118 | jq -r .mon91181 | /bin/bash
-          echo $eafgy4693 | jq -r .w55042 | /bin/bash
-          echo $s42 | jq -r .xzxe92 | /bin/bash
-          echo $rki70 | jq -r .dmz506 | /bin/bash
-          echo $a823 | jq -r .d23481 | /bin/bash
+          echo $qjk2004 | jq -r .is6533 | /bin/bash
+          echo $tfk13080 | jq -r .adu55 | /bin/bash
+          echo $xxy61 | jq -r .zdwu34028 | /bin/bash
+          echo $mlhdt73695 | jq -r .g0 | /bin/bash
+          echo $hlm473 | jq -r .dh7 | /bin/bash
 
